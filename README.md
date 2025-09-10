@@ -1,6 +1,6 @@
-# Sipinter API
+# Reparin API
 
-Sipinter API adalah API RESTful untuk mengelola layanan dan otentikasi pengguna. API ini menggunakan MongoDB untuk penyimpanan data dan paket Gorilla Mux untuk routing pada server web Go. API ini menyediakan endpoint untuk operasi CRUD pada layanan serta fungsionalitas registrasi dan login pengguna.
+Reparin API adalah API RESTful untuk mengelola layanan dan otentikasi pengguna. API ini menggunakan MongoDB untuk penyimpanan data dan paket Gorilla Mux untuk routing pada server web Go. API ini menyediakan endpoint untuk operasi CRUD pada layanan serta fungsionalitas registrasi dan login pengguna.
 
 ## Powered By
 
@@ -34,8 +34,8 @@ Instruksi berikut akan membantu cara menyiapkan dan menjalankan proyek ini di me
 1. Klon repositori:
 
    ```bash
-   git clone https://github.com/yourusername/sipinter-api.git
-   cd sipinter-api
+   git clone https://github.com/yourusername/Reparin-api.git
+   cd Reparin-api
    ```
 
 2. Instal dependensi Go:
@@ -117,7 +117,7 @@ Mencatat detail tentang setiap permintaan, termasuk metode, URI, alamat jarak ja
 ## Struktur Proyek
 
 ```
-sipinter-api/
+Reparin-api/
 │
 ├── handlers/
 │   ├── LoginUser.go          # Handler untuk login pengguna
